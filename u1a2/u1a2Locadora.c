@@ -4,9 +4,8 @@
 #define clientNameSize 101 //ultimo caractere da string é inutil (indica que acabou a string)
 
 struct client {
-    int age;
+    int age, movieAgeRating;
     char name[clientNameSize];
-    int movieAgeRating;
 };
 
 void main() {
@@ -23,7 +22,11 @@ void main() {
     printf("\n Digite a classificação indicativa do filme a ser alugado (0 = classificação livre): ");
     scanf("%i", &clienteLocadora.movieAgeRating);
 
+    printf("\n =====================================================");
     printf("\n Cliente: %s", clienteLocadora.name);
     printf("\n Idade: %i", clienteLocadora.age);
     printf("\n Classificação do filme: %i", clienteLocadora.movieAgeRating);
+    printf("\n Cliente: %s", clienteLocadora.name);
+    printf("\n =====================================================");
+
 }
