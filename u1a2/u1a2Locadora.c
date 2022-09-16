@@ -9,7 +9,7 @@ struct client {
     int movieAgeRating;
 };
 
-int main() {
+void main() {
     //const int clientNameSize = 101; usado define para constante
     struct client clienteLocadora;
     
