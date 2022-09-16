@@ -36,7 +36,7 @@ int main(void){
     if ((fi.esta_disponivel) && (cli.idade >= fi.classificacao_filme)) {
         strcpy(possivelAlugar, "sim");
     } else {
-        strcpy(possivelAlugar, "sim");
+        strcpy(possivelAlugar, "não");
     }
 
     printf("\n =====================================================");
