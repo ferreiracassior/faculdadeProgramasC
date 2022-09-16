@@ -24,9 +24,8 @@ void main() {
 
     printf("\n =====================================================");
     printf("\n Cliente: %s", clienteLocadora.name);
-    printf("\n Idade: %i", clienteLocadora.age);
+    printf(" Idade: %i", clienteLocadora.age);
     printf("\n Classificação do filme: %i", clienteLocadora.movieAgeRating);
-    printf("\n Cliente: %s", clienteLocadora.name);
     printf("\n =====================================================");
 
 }

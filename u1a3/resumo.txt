@@ -1,0 +1,31 @@
+A versão atual do seu programa é capaz de ler a idade e o nome do cliente, bem como a classificação do 
+filme que ele deseja locar e, posteriormente, imprimir todas essas informações na tela.
+Uma das novas funcionalidades propostas por seu chefe é que o programa informe ao cliente se o filme 
+desejado está disponível para ser locado ou não. Nós já temos uma informação a respeito do filme, que 
+é sua classificação. Então, para que nosso código fique organizado, vamos criar uma struct denominada 
+Filme, assim como fizemos com o cliente.
+
+struct filme {
+  int classificacao_filme;
+  int esta_disponivel;
+}; 
+
+
+Você também precisa de um trecho de código capaz de ler a informação se o filme está disponível 
+ou não do teclado e imprimi-la na tela. Com os conhecimentos aprendidos, você consegue realizar essa etapa.
+A próxima melhoria a ser feita no programa é informar se o filme desejado pode ser locado pelo cliente, 
+levando em consideração se o filme está disponível e se é indicado para a sua faixa etária. 
+Nós já temos as informações necessárias para efetuar esse processamento. Então, vamos criar uma expressão 
+lógica que resultará em 0 (falso) ou 1 (verdadeiro), dependendo dos valores das variáveis de entrada.
+Para que o resultado seja 1 (verdadeiro), a idade do cliente deve ser maior ou igual à classificação do 
+filme e o filme deve estar disponível. Com base na versão atual do código do programa, a expressão lógica a ser utilizada é:
+(fi.esta_disponivel) && (cli.idade >= fi.classificacao_filme))
+Por fim, o programa deve informar quantos anos faltam para que a classificação do filme seja adequada 
+à faixa etária do cliente. Nesse caso, precisamos pensar um pouco mais para resolver esse problema 
+com os recursos que aprendemos até o momento. 
+Você se lembra de que o resultado de uma expressão lógica é 0 ou 1. Então, se pensarmos na expressão 
+(cli.idade < fi.classificacao_filme), seu resultado será 0 quando a idade do cliente for maior ou igual 
+à classificação do filme ou 1, quando a idade do cliente for menor do que a classificação do filme.
+(cli.idade < fi.classificacao_filme) * (fi.classificacao_filme - cli.idade))
+O resultado dessa expressão será um número inteiro, que responde à seguinte pergunta: “quantos anos faltam 
+para que a classificação do filme seja adequada à faixa etária do cliente?”
