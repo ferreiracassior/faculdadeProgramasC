@@ -1,0 +1,16 @@
+Pois bem, para colocarmos os conhecimentos a serem aprendidos em prática, vamos analisar a 
+seguinte situação: você deverá criar um programa em linguagem C para ajudar a instituição de 
+ensino na qual você se graduou. 
+
+Foi solicitada a elaboração de um programa que receberá as notas finais dos alunos de determinada 
+disciplina. O professor poderá entrar com quantas notas ele desejar e, por fim, o programa deverá 
+apresentar a média final dessa disciplina.
+
+Pense nas soluções e execute o código em um compilador de linguagem C. Apresente o código livre de 
+erros em um documento de texto. 
+
+Para resolver essa situação, é sugerida uma das possíveis soluções:
+
+-criar uma variável para entrada das notas, outra para acumular o valor das notas e outra para contabilizar quantas notas foram informadas;
+-após o lançamento de cada nota, solicitar ao usuário que informe se deseja continuar digitando outras notas ou não;
+-ao final, calcula-se a média e a apresenta na tela

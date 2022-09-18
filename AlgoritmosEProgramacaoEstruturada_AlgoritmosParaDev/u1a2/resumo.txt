@@ -1,4 +1,4 @@
-/*  
+/*
     Até então, você já construiu um algoritmo capaz de receber como entradas a idade do cliente 
 e a classificação indicativa do filme que ele pretende locar e, logo após, mostrar na tela um dos 
 possíveis resultados: “Este filme não é indicado para sua faixa etária” ou “Este filme é indicado para sua faixa etária”. 

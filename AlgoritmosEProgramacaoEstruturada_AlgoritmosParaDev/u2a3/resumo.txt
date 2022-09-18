@@ -1,0 +1,24 @@
+Situação-problema
+
+Você, novamente, recebeu uma missão da instituição de ensino na qual se formou. 
+
+Foi solicitado um programa em linguagem C para transformar o nome digitado dos alunos em letras maiúsculas, 
+assim, caso uma pessoa digite o nome do aluno em letras minúsculas, o programa transformará automaticamente em 
+maiúsculas. Essa é uma prática muito comum no dia a dia do desenvolvimento de software.
+
+Por exemplo, ao fazer a busca por um aluno da instituição usando seu nome, antes, é necessário transformar o nome 
+informado, bem como os nomes dos alunos cadastrados no software para caixa alta (maiúsculas) ou baixa (minúsculas).
+
+Isso evitará que o fato de uma letra ser informada maiúscula ou minúscula prejudique a busca, ou seja, tanto 
+faz se o usuário informou “josé” ou “José” ou “JOSÉ”; o resultado da busca deve ser sempre o mesmo.
+
+Outra aplicação prática desse exercício é quando se quer gerar uma lista de presença dos alunos de determinada 
+turma. É comum sempre imprimir os nomes em caixa alta (maiúsculas), mantendo um padrão entre os nomes e 
+facilitando a leitura do professor. 
+
+Após a criação do programa, entregue o código no formato TXT para documentação.
+
+Qual função em linguagem C devemos usar para converter maiúsculas em minúsculas e vice-versa? São tantas 
+as possibilidades de aplicação de estrutura de repetição que não podemos deixar passar esse novo desafio. 
+
+Então, vamos buscá-lo? 

@@ -1,0 +1,6 @@
+A instituição de ensino está passando por um processo de otimização nas suas atividades e colocou o 
+seguinte desafio para vocês: realizar um programa em linguagem C que calcule o valor do salário líquido, 
+levando em consideração os descontos de INSS e Imposto de Renda (tabelas - Descontos INSS e tabela - Descontos IR).
+
+<descINSS.png> //ver imagem
+<descIR.png> //ver imagem
